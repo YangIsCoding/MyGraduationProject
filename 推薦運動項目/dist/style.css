@@ -1,0 +1,125 @@
+* {
+  font-family: ariel;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+  font-weight: bold;
+}
+
+body {
+  height: 1000px;
+}
+
+a.navbar-brand {
+  cursor: pointer;
+}
+
+header.jumbotron {
+  background-image: url(https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F35%2F2010%2F07%2F28170650%2Ffb-interval-training-workouts.jpg&q=60);
+  background-size: cover;
+  background-attachment: fixed;
+  margin-bottom: 0px;
+}
+header.jumbotron .container {
+  text-shadow: 0.1em 0.1em black;
+  color: white;
+  padding: 200px 0px;
+}
+header.jumbotron hr {
+  max-width: 50px;
+  border: solid 2px #ff6e3a;
+}
+header.jumbotron h4 {
+  text-shadow: 0.05em 0.05em black;
+  color: white;
+  font-weight: normal;
+}
+
+.disable {
+  display: none;
+}
+
+section {
+  padding: 50px 0px;
+}
+
+section#section_about img {
+  width: 100%;
+}
+section#section_about .img_wrap {
+  height: 100%;
+  overflow: hidden;
+  border-radius: 2%;
+  cursor: pointer;
+}
+
+section#section_story {
+  background-color: #222;
+  color: white;
+  padding: 0;
+}
+section#section_story .col-sm-5 {
+  background-image: url(https://img.freepik.com/free-photo/woman-doing-squats-smith-machine_7502-9063.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: 300px;
+}
+section#section_story .col-sm-7 {
+  text-align: center;
+}
+section#section_story .col-sm-7 i {
+  font-size: 40px;
+}
+section#section_story .col-sm-12.features {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+footer.jumbotron {
+  background-image: url(https://images.unsplash.com/photo-1620188526357-ff08e03da266?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8YmFyYmVsbHxlbnwwfHwwfHw%3D&w=1000&q=80);
+  background-size: cover;
+  background-attachment: fixed;
+  margin-bottom: 0px;
+}
+footer.jumbotron h2 {
+  text-align: center;
+}
+footer.jumbotron button.btn-group.btn-group-justified {
+  color: black;
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+footer.jumbotron input {
+  background-color: transparent;
+  max-width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+footer.jumbotron .container {
+  color: white;
+  padding: 60px 0px;
+}
+footer.jumbotron hr {
+  max-width: 50px;
+  border: solid 2px #ff6e3a;
+}
+
+nav.navbar {
+  transition: 0.5s;
+}
+
+nav.navbar.navbar-default.navbar-fixed-top.navbar-top {
+  background-color: transparent;
+}
+nav.navbar.navbar-default.navbar-fixed-top.navbar-top a {
+  color: yellow;
+  transition: 0.5s;
+}
+nav.navbar.navbar-default.navbar-fixed-top.navbar-top a:hover {
+  color: #ff6e3a;
+}
+
+p {
+  text-align: center;
+}

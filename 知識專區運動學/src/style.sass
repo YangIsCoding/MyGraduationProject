@@ -1,0 +1,146 @@
+$color_orange: #ff6e3a
+*
+  position: relative
+  font-family: ariel
+h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6
+  font-weight: bold
+  //border: solid 1px
+body
+  height: 1000px
+
+a.navbar-brand
+  cursor: pointer
+header.jumbotron
+  background-image: url(https://www.muscleandfitness.com/wp-content/uploads/2019/07/Hands-Clapping-Chaulk-Kettlebell.jpg?w=1109&h=614&crop=1&quality=86&strip=all)
+  background-size: cover
+  background-attachment: fixed
+  margin-bottom: 0px
+  .container
+    color: white
+    text-shadow: 0.1em 0.1em black
+    padding: 200px 0px 
+  hr
+    max-width: 50px
+    border: solid 2px rgba(white,0.7)
+  h4
+    color: white
+    text-shadow: 0.05em 0.05em black
+    font-weight: normal
+.disable
+  display: none
+
+section
+  padding: 50px 0px
+    
+section#section_about
+  img
+    width: 100%
+  .img_wrap
+      height: 100%
+      overflow: hidden
+      border-radius: 100%
+      cursor: pointer
+  .box1
+      background-size: 200%
+      transition: 2s
+      h3
+        color: white
+      .icon
+        i.fab.fa-fly
+          color: white
+      background-image: url(https://cdn2.ettoday.net/images/4845/d4845728.jpg)
+      &:hover
+        h3
+          color: black
+        .icon
+          i.fab.fa-fly
+            color: black
+        background-image: linear-gradient(rgba(255,255,255,0.8), rgba(255,255,255,0.8)), url("https://cdn2.ettoday.net/images/4845/d4845728.jpg")
+        background-size: 100%
+        color: black
+  .box2
+      background-image: url(https://boldoutline.in/wp-content/uploads/2020/06/image1.jpg)
+      background-size: 100%
+      &:hover
+       background-image: linear-gradient(rgba(255,255,255,0.8), rgba(255,255,255,0.8)),url(https://boldoutline.in/wp-content/uploads/2020/06/image1.jpg)
+        background-size: 300% 
+        background-repeat: no-repeat
+        color: black
+  .box
+    padding: 20px
+    img
+      height: 300px
+      width: auto
+    br,hr
+      display: none
+    border: solid 3px $color_orange
+    height: 100%
+    width: 100%
+    opacity: 50%
+    border-radius: 5%
+    margin: 2px
+    cursor: pointer
+    .icon
+      position: relative
+      width: 25px
+      left: 3%
+      top: 21%
+      display: inline
+    h3
+      display: inline
+    h4,h5,p,img
+      display: none
+    &:hover
+      br,hr
+        display: block
+      h4,h5,p,img
+        display: block
+        text-align: left
+      height:100%
+      opacity: 1
+      top: 0px
+      transition: 2s
+    
+    
+    
+footer.jumbotron
+  h2
+    text-align: center
+  background-image: url(https://images.unsplash.com/photo-1620188526357-ff08e03da266?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8YmFyYmVsbHxlbnwwfHwwfHw%3D&w=1000&q=80)
+  background-size: cover
+  background-attachment: fixed
+  margin-bottom: 0px
+  button.btn-group.btn-group-justified
+    color: black
+    width: 200px
+    margin-left: auto
+    margin-right: auto
+  input
+    background-color: transparent
+    max-width: 200px
+    margin-left: auto
+    margin-right: auto
+  .container
+    color: white
+    padding: 60px 0px 
+  hr
+    max-width: 50px
+    border: solid 2px $color_orange
+    
+nav.navbar
+  transition: 0.5s
+  
+nav.navbar.navbar-default.navbar-fixed-top.navbar-top
+  background-color: transparent
+  a
+    color: yellow
+    transition: 0.5s
+    &:hover
+      color: $color_orange
+
+p
+  text-align: center
+  
+  
+  
+  

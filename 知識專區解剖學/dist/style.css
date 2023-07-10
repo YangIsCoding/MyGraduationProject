@@ -1,0 +1,178 @@
+* {
+  position: relative;
+  font-family: ariel;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+  font-weight: bold;
+}
+
+body {
+  height: 1000px;
+}
+
+a.navbar-brand {
+  cursor: pointer;
+}
+
+header.jumbotron {
+  background-image: url(https://www.muscleandfitness.com/wp-content/uploads/2016/09/Bodybuilder-Working-Out-His-Upper-Body-With-Cable-Crossover-Exercise.jpg?quality=86&strip=all);
+  background-size: cover;
+  background-attachment: fixed;
+  margin-bottom: 0px;
+}
+header.jumbotron .container {
+  color: white;
+  text-shadow: 0.1em 0.1em black;
+  padding: 200px 0px;
+}
+header.jumbotron hr {
+  max-width: 50px;
+  border: solid 2px rgba(255, 255, 255, 0.7);
+}
+header.jumbotron h4 {
+  color: white;
+  text-shadow: 0.05em 0.05em black;
+  font-weight: normal;
+}
+
+.disable {
+  display: none;
+}
+
+section {
+  padding: 50px 0px;
+}
+
+section#section_about img {
+  width: 100%;
+}
+section#section_about .img_wrap {
+  height: 100%;
+  overflow: hidden;
+  border-radius: 100%;
+  cursor: pointer;
+}
+section#section_about .box1 {
+  background-size: 100%;
+  transition: 2s;
+  background-image: url(https://cdn.bella.tw/indeximage/sBD5TY7j1de1z0l1wypyCRk4bIRmUG7lxoV5IZPQ.jpeg);
+}
+section#section_about .box1 h3 {
+  color: white;
+}
+section#section_about .box1 .icon i.fab.fa-fly {
+  color: white;
+}
+section#section_about .box1:hover {
+  background-image: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url("https://cdn.bella.tw/indeximage/sBD5TY7j1de1z0l1wypyCRk4bIRmUG7lxoV5IZPQ.jpeg");
+  background-size: 100%;
+  color: black;
+}
+section#section_about .box1:hover h3 {
+  color: black;
+}
+section#section_about .box1:hover .icon i.fab.fa-fly {
+  color: black;
+}
+section#section_about .box2 {
+  background-image: url(https://cdn.bella.tw/indeximage/YBbtHjt7VQmM7cQU8VE1b6dVriU7dNItIlCXBVME.jpeg);
+}
+section#section_about .box2:hover {
+  background-image: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8));
+  background-image-background-size: 3000%;
+  background-image-background-repeat: no-repeat;
+  background-image-color: black;
+}
+section#section_about .box {
+  padding: 20px;
+  border: solid 3px #ff6e3a;
+  height: 100%;
+  width: 100%;
+  opacity: 50%;
+  border-radius: 5%;
+  margin: 2px;
+  cursor: pointer;
+}
+section#section_about .box img {
+  height: 300px;
+  width: auto;
+}
+section#section_about .box br, section#section_about .box hr {
+  display: none;
+}
+section#section_about .box .icon {
+  position: relative;
+  width: 25px;
+  left: 3%;
+  top: 21%;
+  display: inline;
+}
+section#section_about .box h3 {
+  display: inline;
+}
+section#section_about .box h4, section#section_about .box h5, section#section_about .box p, section#section_about .box img {
+  display: none;
+}
+section#section_about .box:hover {
+  height: 100%;
+  opacity: 1;
+  top: 0px;
+  transition: 2s;
+}
+section#section_about .box:hover br, section#section_about .box:hover hr {
+  display: block;
+}
+section#section_about .box:hover h4, section#section_about .box:hover h5, section#section_about .box:hover p, section#section_about .box:hover img {
+  display: block;
+  text-align: left;
+}
+
+footer.jumbotron {
+  background-image: url(https://images.unsplash.com/photo-1620188526357-ff08e03da266?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8YmFyYmVsbHxlbnwwfHwwfHw%3D&w=1000&q=80);
+  background-size: cover;
+  background-attachment: fixed;
+  margin-bottom: 0px;
+}
+footer.jumbotron h2 {
+  text-align: center;
+}
+footer.jumbotron button.btn-group.btn-group-justified {
+  color: black;
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+footer.jumbotron input {
+  background-color: transparent;
+  max-width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+footer.jumbotron .container {
+  color: white;
+  padding: 60px 0px;
+}
+footer.jumbotron hr {
+  max-width: 50px;
+  border: solid 2px #ff6e3a;
+}
+
+nav.navbar {
+  transition: 0.5s;
+}
+
+nav.navbar.navbar-default.navbar-fixed-top.navbar-top {
+  background-color: transparent;
+}
+nav.navbar.navbar-default.navbar-fixed-top.navbar-top a {
+  color: yellow;
+  transition: 0.5s;
+}
+nav.navbar.navbar-default.navbar-fixed-top.navbar-top a:hover {
+  color: #ff6e3a;
+}
+
+p {
+  text-align: center;
+}

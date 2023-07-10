@@ -1,0 +1,377 @@
+* {
+  padding: 0;
+  position: relative;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  font-family: "Noto Sans TC", sans-serif;
+}
+
+#background {
+  background-image: url(https://m.media-amazon.com/images/I/710YwZXN2zL._AC_SL1500_.jpg);
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: -2;
+}
+
+#main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin: 3rem;
+  margin-top: 2.5rem;
+  margin-bottom: 0rem;
+}
+
+.font {
+  font-size: 2.5rem;
+  font-weight: 600;
+  margin-left: 3.5rem;
+  margin-bottom: 1rem;
+  color: aliceblue;
+  -webkit-transition: all 0.35s ease-in;
+  transition: all 0.35s ease-in;
+}
+.font:hover {
+  -webkit-transform: translateY(-0.35rem);
+  transform: translateY(-0.35rem);
+  color: lightcoral;
+}
+
+.food {
+  top: 100px;
+  overflow: hidden;
+}
+
+.block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 200px;
+  height: 200px;
+  background-color: black;
+  color: white;
+  opacity: 0.75;
+  -webkit-transition: all 0.5s ease-in;
+  transition: all 0.5s ease-in;
+}
+.block:hover {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  background-color: lightcoral;
+  color: black;
+}
+
+.bar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 200px;
+  height: 100px;
+  background-color: gainsboro;
+  color: black;
+  opacity: 0.9;
+  -webkit-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
+}
+.bar:hover {
+  background-color: rosybrown;
+  color: black;
+}
+
+.block2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 200px;
+  height: 200px;
+  background-color: aliceblue;
+  color: black;
+  opacity: 0.75;
+  -webkit-transition: all 0.5s ease-in;
+  transition: all 0.5s ease-in;
+}
+.block2:hover {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  background-color: lightcoral;
+  color: black;
+}
+
+.bar2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 200px;
+  height: 100px;
+  background-color: gainsboro;
+  color: black;
+  opacity: 0.9;
+  -webkit-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
+}
+.bar2:hover {
+  background-color: rosybrown;
+  color: black;
+}
+
+.block3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 200px;
+  height: 200px;
+  background-color: black;
+  color: white;
+  opacity: 0.75;
+  -webkit-transition: all 0.5s ease-in;
+  transition: all 0.5s ease-in;
+}
+.block3:hover {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  background-color: lightcoral;
+  color: black;
+}
+
+.bar3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 200px;
+  height: 100px;
+  background-color: gainsboro;
+  color: black;
+  opacity: 0.9;
+  -webkit-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
+}
+.bar3:hover {
+  background-color: rosybrown;
+  color: black;
+}
+
+.result {
+  top: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.block4 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 600px;
+  height: 70px;
+  background-color: snow;
+  color: black;
+  opacity: 0.9;
+  -webkit-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
+}
+.block4:hover {
+  background-color: indianred;
+  color: black;
+}
+
+.content {
+  font-size: 1.6rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 5.5rem 0.5rem;
+}
+
+.content_second {
+  font-size: 0.95rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 2rem 0.5rem;
+}
+
+.content2 {
+  font-size: 1.6rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 5.5rem 0.5rem;
+}
+
+.content2_second {
+  font-size: 0.95rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 2rem 0.5rem;
+}
+
+.content3 {
+  font-size: 1.6rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 5.5rem 0.5rem;
+}
+
+.content3_second {
+  font-size: 0.95rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 2rem 0.5rem;
+}
+
+.content4 {
+  font-size: 1.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 0.5rem 0.5rem;
+}
+
+section.button_section {
+  top: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin: 1rem 1.5rem;
+  width: 15rem;
+  border-radius: 20px;
+  padding: 0.7rem 0rem;
+  font-size: 1.25rem;
+  cursor: pointer;
+  background-color: lightpink;
+  color: black;
+  opacity: 0.9;
+  border: none;
+  -webkit-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
+}
+.button:hover {
+  -webkit-transform: scale(0.8);
+  transform: scale(0.8);
+  background-color: white;
+}
+
+/*# sourceMappingURL=style.css.map */
